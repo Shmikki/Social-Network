@@ -1,0 +1,12 @@
+.app_wrapper{
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  justify-content: center;
+  margin-top: 75px;
+  background: #ffffff;
+  min-height: 80vh;
+  box-shadow: 4px 4px 22px -5px rgba(0,0,0,0.4);
+  border-radius: 5px;
+}
+

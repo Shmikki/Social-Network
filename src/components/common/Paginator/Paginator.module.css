@@ -1,0 +1,20 @@
+.pages{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.page:hover{
+    text-decoration: underline;
+}
+
+.currentPage{
+    margin-right: 10px;
+    font-weight: 800;
+}

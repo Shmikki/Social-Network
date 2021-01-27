@@ -1,0 +1,25 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+}
+
+.pages{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.page:hover{
+    text-decoration: underline;
+}
+
+.selectedPage{
+    margin-right: 10px;
+    font-weight: 800;
+}

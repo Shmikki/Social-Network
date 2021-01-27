@@ -1,0 +1,16 @@
+.link{
+    align-self: flex-start;
+    font-size: 12px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar{
+    margin-right: 10px;
+    width:50px;
+    height: 40px;
+}
+

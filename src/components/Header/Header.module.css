@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    z-index: 99999;
+    background: #5b7cb5;
+    position: fixed;
+    left:0;
+    min-width: 100vw;
+    top:0;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 76%;
+    color:black;
+}
+
+
+.logo_image{
+    height: 40px;
+}

@@ -1,0 +1,41 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    margin-top:20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    align-items: center;
+    max-width: 600px;
+    min-width: 300px;
+    width: 100%;
+    align-self: center;
+}
+
+.item__content{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+.item__avatar{
+    margin-right: 100px;
+    justify-self: flex-start;
+}
+
+.item__text{
+    font-size: 16px;
+    padding: 20px;
+}
+
+.fl{
+    height: 1px;
+    width: 100%;
+    background: gray;
+}
+
+.item__likes{
+    margin-top: 10px;
+}

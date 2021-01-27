@@ -1,0 +1,23 @@
+.profile {
+    display: flex;
+    font-size: 15px;
+    flex-direction: row;
+    border-bottom: 1px solid #ababab;
+    padding-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.name {
+    font-size: 18px;
+    padding: 5px;
+    font-weight: 800;
+}
+
+.birthday {
+    color: #AEAEAE;
+}

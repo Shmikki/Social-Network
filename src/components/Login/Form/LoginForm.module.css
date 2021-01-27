@@ -1,0 +1,56 @@
+.formContent{
+    background: #ffff;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E8E8EA;
+    box-sizing: border-box;
+    box-shadow: 1px 10px 20px rgba(67, 87, 138, 0.29);
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    color: #323232;
+    letter-spacing: -0.3px;
+    font-size: 14px;
+}
+
+.formItem{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 5px;
+}
+
+.formItem label {
+    color: #333;
+    width: 110px;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.formItem input{
+    flex: 1;
+    padding: 3px 5px;
+    font-size: 1em;
+    margin-left: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.formCheckbox{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin: 10px;
+}
+
+.loginBtn{
+    background: rgba(80, 227, 194, 0.14);
+    font-weight: 600;
+    color: #0F3D33;
+    font-size: 14px;
+    line-height: 19px;
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    border-radius: 3px;
+}
