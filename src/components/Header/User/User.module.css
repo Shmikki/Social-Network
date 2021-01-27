@@ -1,0 +1,12 @@
+.info{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.avatarImage{
+    height: 30px;
+    width: 30px;
+}

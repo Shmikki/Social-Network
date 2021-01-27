@@ -14,6 +14,14 @@ const Group = styled.div`
   margin-bottom: 10px;
 `;
 
+const CheckboxGroup = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+  margin-bottom: 10px;
+`;
+
 const FormWrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -37,7 +45,15 @@ const Button = styled.button`
   width: 100%;
 `;
 
-
+const Checkbox = styled.input`
+ display : block;
+ padding: 10px;
+ border: 2px solid #5b7cb5;
+ border-radius: 3px;
+ width:20px;
+ height: 20px;
+ margin-right: 30px
+`
 
 
 export const LoginForm = (props) => (
@@ -58,11 +74,11 @@ export const LoginForm = (props) => (
                     <Label>Password</Label>
                     <Input name="password" type="password" placeholder="Password" validate={v => !(v || "") && "Please Enter a valid Password"} />
                 </Group>
-                <Group>
-                    <Label>Remember me</Label>
-                    <input type="checkbox" name="RememberMe" value="true" />
-                </Group>
-                    <Button  type="submit" primary>Login</Button>
+                <CheckboxGroup>
+                        <Checkbox type="checkbox" name="RememberMe" value="true" />
+                        <Label>Remember me</Label>
+                </CheckboxGroup>
+                    <Button type="submit" primary>Login</Button>
             </FormWrapper>
         )}
     </Form>
